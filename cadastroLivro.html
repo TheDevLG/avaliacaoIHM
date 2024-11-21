@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Novo Livro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Cadastro de Novo Livro</h1>
+    </header>
+    <form>
+      <input type="text" id="tituloLivro" placeholder="Título do Livro" required>
+      <input type="text" id="autorLivro" placeholder="Autor do Livro" required>
+      <input type="date" id="dataPublicacao" placeholder="Data de Publicação" required>
+      <div class="button-group">
+        <button type="button" class="btn-cancelar">Limpar</button>
+        <button type="submit" class="btn-confirmar">Cadastrar Livro</button>
+      </div>
+      <p class="error-message" id="erroCadastro">Todos os campos são obrigatórios</p>
+    </form>
+  </div>
+</body>
+</html>

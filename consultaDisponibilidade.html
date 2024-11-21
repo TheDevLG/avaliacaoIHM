@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta de Disponibilidade</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Consulta de Disponibilidade</h1>
+    </header>
+    <form>
+      <div style="display: flex; align-items: center; gap: 5px;">
+        <input type="text" id="buscaLivro" placeholder="Pesquisar Livro" required>
+        <button type="submit" class="btn-reservar">🔍</button>
+      </div>
+    </form>
+    <ul class="list-group">
+      <li class="list-group-item">
+        Livro A <span class="status-disponivel">Disponível</span>
+      </li>
+      <li class="list-group-item">
+        Livro B <span class="status-indisponivel">Emprestado</span>
+        <button class="btn-reservar">Reservar</button>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

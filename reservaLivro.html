@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserva de Livro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Reserva de Livro</h1>
+    </header>
+    <form>
+      <input type="text" id="codigoLivroReserva" placeholder="Código do Livro para Reserva" required>
+      <div class="button-group">
+        <button type="button" class="btn-cancelar">Cancelar</button>
+        <button type="submit" class="btn-confirmar">Confirmar Reserva</button>
+      </div>
+      <p class="error-message" id="erroReserva">Este livro já está reservado</p>
+    </form>
+  </div>
+</body>
+</html>
